@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:focus, 
+button:focus  {
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+body {
+    background: url(../images/Battleships.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    color: #000;
+}
+.small-container{
+    margin: auto;
+    max-width: 350px;
+    background-color: aliceblue; 
+    padding: 30px;  
+}
+input {
+margin-bottom: 20px;
+width: 100%;
+padding: 10px;
+}
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #484864;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-100 {
+width: 100%;
+} 
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.register-text {
+    text-align: center;
+    margin-top: 20px;
+}
+.register-text a {
+    color: aquamarine;
+    margin-left: 3px;
+    font-weight: 600;
+}
